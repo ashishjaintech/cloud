@@ -22,7 +22,9 @@ For enabling internet on ec2 windows maching : server manager -> local server ->
 		172.31.0.254 last ip	
 	172.31.16.0/24 256- 251
 Third range maximum is 255
-
+Currently you can create 200 subnets per VPC. If you would like to create more, please submit a case at the support center.
+For setting regions you can take information from region link aws
+For cli output format options are : table/text/json
 
 
 
