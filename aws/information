@@ -1,0 +1,36 @@
+								Basic Information AWS
+								
+Region – 22 (18 in dropdown, 3 For Govt.)
+Availability Zones – 69
+Every region has default VPC
+Number of availability zones can be seen in subnet section(see only linked with default VPC)
+Default VPCs limit in a region = 5(Including default VPC), it can be increased from customer support
+Security Group(Firewall)
+	IPV4 : ALL DESKTOP & LAPTOP 0.0.0.0/0
+	IPV6 : MOBILE ::/0
+If EC2 pem file is lost then we can't use ec2, we have to terminate it.
+If user cli credentials lost then we can create new security credentials
+	First we have to mark previous credentials inactive then delete it.
+	Then create new security credentials and use it for connecting user in cli to aws
+Linux ec2 require 4 gb for in installation, so 8 gb is enough
+Windows will take 30 gb for in installation
+For checking 32 or 64 bit machine on windows : system information -> 64 bit 
+For enabling internet on ec2 windows maching : server manager -> local server -> Disable IE Enhanced security configuration
+
+
+
+
+								Some Short Forms
+Types of AWS(Amazon web service)
+	EBS : Elastic block store
+	EC2 : Elastic compute cloud
+	S3 	: Simple storage service
+Types of Harddisk
+	SSD : Solid state drive
+	HHD : Hard disk drive
+
+
+							
+					
+							
+			

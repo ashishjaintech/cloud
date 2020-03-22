@@ -1,0 +1,28 @@
+									AWS CLI COMMANDS
+									
+Check aws installed
+	aws --version
+	
+Configure aws 
+	aws configure
+	aws configure --profile <different user name>
+
+Help
+	aws help
+	aws <cmd> help
+	aws <cmd> <sub_cmd> help
+	
+Describe ec2 instances
+	aws ec2 describe-instances
+	
+Listing iam users
+	aws iam list-users
+	
+Deleting iam user
+	aws iam deleteuser --user-name <username>
+	
+Connecting ec2 by cli
+	chmod 400 <pem file.pem>
+	ssh -i "<pem file.pem>" ec2-user@public-ip
+	ssh -i "<pem file.pem>" ec2-user@dns
+	
